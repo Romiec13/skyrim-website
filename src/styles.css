@@ -1,5 +1,23 @@
 :root {
     --font-family:'Montserrat', sans-serif;
+    --background-color:#393e46;
+    --text-color:white;
+    --icon-color: #eb8242;
+}
+
+.navbar {
+    background-color: var(--background-color);
+    opacity: 30%;
+}
+
+.navbar-skyrim {
+    text-decoration: none!important;
+    color:var(--icon-color)!important;
+}
+
+.homepage{
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 .homepage-image {
@@ -10,7 +28,9 @@
 }
 
 .homepage h1 {
+    color:var(--icon-color);
     font-family: var(--font-family);
+    text-decoration: underline;
     font-weight: bolder;
     text-align: center;
 }
@@ -37,13 +57,17 @@
     padding: 20px 15px;
     font-family: var(--font-family);
     font-weight: bold;
-    background-color: black;
+    background-color: var(--icon-color);
+    color:var(--background-color);
     text-decoration: none;
     text-transform: capitalize;
 }
 
 .homepage a:hover {
     opacity: 40%;
+    background-color: white;
+    color:var(--icon-color);
+    text-decoration: underline;
 }
 
 .image-map {
@@ -52,12 +76,14 @@
 }
 
 .gameplay-icons {
+    color:var(--icon-color);
    text-align: center;
    padding: 10px 15px;
     font-size: 50px;
 }
 
-.gameplay-icons img {
-    width: 65px;
-    height: auto;
+
+.gameplay-icons i:hover {
+    opacity: 20%;
+    color: white;
 }
