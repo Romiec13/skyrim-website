@@ -106,3 +106,22 @@ font-weight: bold;
     display: flex;
     flex-direction: row;
 }
+
+.classes-page h2 {
+    font-family: var(--font-family);
+    color: var(--icon-color);
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .classes-page p {
+        font-family: var(--font-family);
+        color: var(--text-color);
+    }
+
+
+    .classes-page img {
+           text-align: center;
+            width:  400px;
+            height: 230px;
+    }
