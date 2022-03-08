@@ -143,3 +143,11 @@ font-weight: bold;
       .classes-link {
           margin-top: 0;
       }
+
+      .factions-page p {
+        font-family: var(--font-family);
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: large;
+        }
