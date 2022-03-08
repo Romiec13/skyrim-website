@@ -44,6 +44,7 @@ h1 {
     text-align: center;
     padding-left: 60px;
     padding-right: 60px;
+    font-size: large;
 }
 
 .website-links {
@@ -64,7 +65,7 @@ h1 {
     text-transform: capitalize;
 }
 
-.homepage a:hover {
+a:hover {
     opacity: 40%;
     background-color: #e0ebeb;
     color:var(--icon-color);
@@ -98,6 +99,7 @@ font-weight: bold;
 .races-page p {
     font-family: var(--font-family);
     color: var(--text-color);
+    font-size: large;
 }
 
 .image-races {
@@ -117,6 +119,10 @@ font-weight: bold;
     .classes-page p {
         font-family: var(--font-family);
         color: var(--text-color);
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: medium;
     }
 
 
@@ -125,3 +131,15 @@ font-weight: bold;
             width:  400px;
             height: 230px;
     }
+
+    .classes-list {
+        display: inline-block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        color: var(--icon-color);
+        font-size: medium;
+      }
+   
+      .classes-link {
+          margin-top: 0;
+      }
