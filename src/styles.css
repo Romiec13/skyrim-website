@@ -151,3 +151,11 @@ font-weight: bold;
         padding-right: 60px;
         font-size: large;
         }
+
+    .factions-page h2 {
+        font-family: var(--font-family);
+        color: var(--icon-color);
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+    }
