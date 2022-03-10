@@ -144,7 +144,7 @@ font-weight: bold;
           margin-top: 0;
       }
 
-      .factions-page p {
+      .factions-intro p {
         font-family: var(--font-family);
         text-align: center;
         padding-left: 60px;
@@ -157,5 +157,26 @@ font-weight: bold;
         color: var(--icon-color);
         font-weight: bold;
         text-align: center;
-        text-decoration: underline;
     }
+
+    .accordian-header {
+        padding: 0 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+.faction-images {
+    height: 300px;
+    width: 250px;
+    margin-left: 600px;
+}
+
+.accordian-p {
+font-family: var(--font-family);
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: large;
+        color: var(--background-color);
+        margin-top: 7px;
+}
